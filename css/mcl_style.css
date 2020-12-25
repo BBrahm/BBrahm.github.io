@@ -10,7 +10,9 @@ body {
   background-size: cover;
   margin: 0;
   padding: 6rem 1rem ;
-  color: hsl(194, 90%, 69%);
+  /* text color */
+  /*color: hsl(194, 90%, 69%);*/
+  color: white;
   font-family: "barlow";
   font-size: 1.5rem;
   line-height: 2.25rem;
