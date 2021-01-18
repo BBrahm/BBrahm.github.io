@@ -11,7 +11,6 @@ body {
   margin: 0;
   padding: 6rem 1rem ;
   /* text color */
-  /*color: hsl(194, 90%, 69%);*/
   color: white;
   font-family: "barlow";
   font-size: 1.5rem;
@@ -36,18 +35,18 @@ nav {
           animation: fadein 2s;
 */
 }
-nav .jamie-photo {
+nav .b-photo {
   display: block;
   margin-bottom: 1rem;
 }
 nav a {
   height: 1.7rem;
 }
-/*TODO: add different divider than a wave? */
+/*TODO: add cloud divider */
 nav hr {
   height: 2rem;
   margin-top: .8rem;
-  background: url(images/wave-thick.svg) no-repeat 100%;
+  background: url(./../img/wave-thick.svg) no-repeat 100%;
   background-size: 100%;
 }
 ul {
@@ -66,6 +65,7 @@ ul {
           animation: fadein 6.5s;
 */
 }
+/* when screen is wide enough, show sidebar */
 @media (min-width: 1200px) {
   #nav {
     display: block;
@@ -88,8 +88,8 @@ a {
   border-bottom: 1px dotted;
 }
 a:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #B8DEFF;
+  border-color: #B8DEFF;
 }
 h1 {
   font-size: 3rem;
@@ -153,7 +153,7 @@ section {
 hr {
   border: 0;
   height: 8rem;
-  background: url(images/wave-thin.svg) no-repeat 100%;
+  background: url(./../img/wave-thin.svg) no-repeat 100%;
   background-size: 100%;
   transform: scale(1.02);
 }
@@ -164,7 +164,8 @@ img {
 }
 .b-photo {
   border-radius: 50%;
-  width: 9rem;
+  /* TODO: change to match width of nav, or else find a way to center it */
+  width: 11rem;
   margin-bottom: 0;
 /*
   -webkit-animation: fadein 1.5s;
@@ -184,7 +185,7 @@ img {
 .narrow-img:nth-child(even) {
   margin-right: 8%;
 }
-
+/*
 @keyframes fadein {
     0%    { opacity: 0; }
     50%   { opacity: 0; }
@@ -210,3 +211,4 @@ img {
     50%   { opacity: 0; }
     100%  { opacity: 1; }
 }
+*/
